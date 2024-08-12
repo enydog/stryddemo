@@ -26,8 +26,8 @@ pip install pygame pandas moviepy
 ### Data Files
 You need the following CSV files containing the running data:
 
-- `StrydCarla3k.csv`: Contains data for Carla.
-- `StrydColo3k.csv`: Contains data for Colo.
+- `runner1.csv`: Contains data for Carla.
+- `runner2.csv`: Contains data for Colo.
 
 These files should include the following columns:
 - `pace`: Pace in min/km
@@ -45,13 +45,13 @@ Place all the necessary files in the same directory as the script:
 
 ```
 /your_project_directory/
-    ├── StrydCarla3k.csv
-    ├── StrydColo3k.csv
+    ├── runner1.csv
+    ├── runner2.csv
     ├── chico.png
     ├── chica.png
     ├── wind.png
     ├── sonido.mp3
-    ├── your_script.py
+    ├── stryddemo.py
 ```
 
 ## How to Run
@@ -64,11 +64,11 @@ Place all the necessary files in the same directory as the script:
 3. **Run the script:**
    - Execute the script using Python:
    ```bash
-   python your_script.py
+   python strydemo.py
    ```
 
 4. **Output:**
-   - The script will generate a video file named `carla_colo_animation_with_sound.mp4` in the same directory, visualizing the speed and power data of both runners with added wind effects.
+   - The script will generate a video file named `demo.mp4` in the same directory, visualizing the speed and power data of both runners with added wind effects.
 
 ## Notes
 
